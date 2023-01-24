@@ -1,19 +1,19 @@
-# [Project1-Wiki-CS50w](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
+# [Cs50w-Project1-Wiki](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
 
 ## Installation
 
 ```shell
 cd ~/dev # Or wherever you develop
-mkdir Project1-CS50w; cd Project1-CS50w
+mkdir Cs50w-Project1-Wiki; cd Cs50w-Project1-Wiki
 python3 -m venv venv # Create the virtual env
-git clone git@github.com:KatFlorou/Project1-CS50w.git
+git clone git@github.com:KatFlorou/Cs50w-Project1-Wiki.git
 ```
 
 Then install the packages
 
 ```shell
 source venv/bin/activate
-cd Project1-CS50w
+cd Cs50w-Project1-Wiki
 pip install -Ur requirements.txt
 ```
 
@@ -21,19 +21,18 @@ Edit local settings to reflect your configuration
 
 ```shell
 cp wiki/local_settings.py.example wiki/local_settings.py
-wim wiki/local_settings.py
 ```
 
 You can then run the server
 
 ```shell
-python manage.py runserver # this defaults on 127.0.0.1:8000
+python manage.py runserver 
 
 ```
 
 ## Python
 
-This project requires python (minimum version 3.10) 
+This project was created with Python 3.10.9 
 
 ## Packages
 
